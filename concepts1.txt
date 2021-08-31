@@ -141,8 +141,12 @@ you can also place a number in the parenthesis ex .pop[3] and it will delete cha
 
 22. How can you access and change values within a dictionary?
 You can access values in the dictionary with the index as well. Such as variablename[keyvalue].append(added/changed value here)
+
 23. What data types can a sequence hold?
+A sequence can hold strings, numbers, or other lists
+
 24. What data types can a dictionary hold?
+
 25. How can you iterate through a dictionary?
 26. What is object oriented programming?
 27. Describe a class? Why are they useful?
