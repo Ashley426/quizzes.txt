@@ -131,8 +131,16 @@ To create a return on a value you want to first create a variable for your resul
 set it to a number then each number in that list you keep adding to result to return your result.
 
 20. Describe a dictionary. How and why would it be useful?
+A dictionary is a collection of data that can be in any order. It holds key:value 
+pairing each value with a key. Also there is semicolons, commas, and curly brackets.
+This is used when you want to make a sequence of data that you want to give each key a values.
+
 21. How can you remove a value from a dictionary?
+To remove a value from a dictionary you can use .pop()* which will remove the last item but 
+you can also place a number in the parenthesis ex .pop[3] and it will delete character in index 3.
+
 22. How can you access and change values within a dictionary?
+You can access values in the dictionary with the index as well. Such as variablename[keyvalue].append(added/changed value here)
 23. What data types can a sequence hold?
 24. What data types can a dictionary hold?
 25. How can you iterate through a dictionary?
