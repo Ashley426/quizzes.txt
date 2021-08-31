@@ -146,11 +146,22 @@ You can access values in the dictionary with the index as well. Such as variable
 A sequence can hold strings, numbers, or other lists
 
 24. What data types can a dictionary hold?
+Dictionary can have any data typw and can be duplocated however the keys cannot be repeated.
 
 25. How can you iterate through a dictionary?
+You can iterate through the dictionary with the index  
+
 26. What is object oriented programming?
+Object-oriented programming is a program that simulates something in real life or imaginary.
+
 27. Describe a class? Why are they useful?
+A class is like a blueprint for individual instances with methods and functionsto decribe 
+the class of your instance.
+
 28. What are class properties? How would I give a class an initial set of properties?
+
 29. What are class methods?
+
 30. What is inheritence?
+
 31.  What are the various data types?
