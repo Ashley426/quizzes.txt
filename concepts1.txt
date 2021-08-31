@@ -1,0 +1,144 @@
+PART I
+Navigating the File System
+1.  How do you move back and forth between directories?
+You can use cd .. to go back to previous directory and ls to see the file you need to.
+go into and you can just then type cd with the filename and it will take you in to that directory.
+
+2.  How do you create and delete files? 
+To create a file you type touch and then the filename that you would like to create. 
+To delete a file you can type rm and then the file name.
+
+3.  How do you create and delete directories? 
+To create a directory you can typr mkdir and the filename.
+To delete a directory you can type rm -r and the filename.
+
+4.  How can I see exactly where I am within the filesystem?
+If you are trying to see where you are in a file you can look at name before the % in the 
+terminal and also typing ls will show you the file and files you can go into from where you are.
+
+5.  How can I see the files and directories within the current directory that I am in?
+To see all files and directory within the currect directory your in your can type ls 
+and it will give you a list of options of files you can go into form where you are
+if any.
+
+Git
+1.  How do you let git know you want to track changes made in a directory?
+git init is what creates your repo for you to start trackong your changes.
+
+2.  How do you tell git that you like the work you’ve done and want it to be a part of a
+ chunk of work to be saved?
+If you like your changes made on your branch and want to connect it to your
+main branch with your work you can use git branch merge main/master(whatever your main work is called).
+
+3.  How do you tell git you want to save a chunk of work?
+To save a chunk of work that you have worked on and made changed to you use 
+command git add -A and gitr commit -m"..."
+
+4.  How do you tell git where to push your local changes up to a online repository? 
+To push your local changes to your remote repository you must first make sure you have all your changes are committed and then use command
+git push <name of repo> <name of branch>.
+
+5.  How can you safely work on a different version of your current project?
+You can create a branch to safely work on a current project with out messing with the rest of your code.
+
+6.  How can you make that different version become a part of your main version
+To create a different version you must create a branch with the command git branch <branchname> and then 
+checkout branch <branchname> to acutally go into the branch and start working on another version without messing with your main branch.
+
+7.  How do I move between versions of my project?
+You  can move through different versions of this project by switching your branches on your terminal and also on 
+git hub by clicking on insight network and looking at the graph/time line branches to look through different 
+branches and even commits.
+
+8.  How can I go back to previous chunks of work that I’ve created and work from that point in time? You can use 
+command checkout branch<branchname> to switch to other branches to continue work.
+
+9. Let's say i wrote a bad message for a commit. How could I change it?
+You can use commang git commit --amend and press enter and then you can edit the commit message.
+
+Part 2
+
+Python
+1.  How do I run my code from the terminal?
+To run your code from the terminal you make sure you are in that file and then type python<filename>.
+
+2.  What can I use to reference a value later in my code?
+To reference a value later in your code you can make a variable.
+
+3.  How can I make my program display text or some value in my terminal?
+To make your program display text you need to make it a string by putting the note or message in parenthesis.
+
+4.  How can I make my code make decisions on which code to execute?
+You can use condition statements such if/ elif/ else to distingush which thing to do based off each situation.
+
+5.  How can I repeat blocks of code based on conditions?
+To repeat blocks of code you will use loops which holds a variable as a number and will increase again and again.
+
+6.  Why is it critical to ensure that our conditions eventually become false when repeating blocks of code?
+It is important that these conditiond become false becuase if not it can caun cause an infinite loop and is bad for your system.
+
+7.  What are sequences and what are the differences between them?
+As sequence is a data type that can hold multiple values.
+
+8.  How do I access a value within the various types of sequences?
+To access these variables in a sequence you will use an integer index which identifies a single value in a sequence.
+
+9.  What is an index when talking about sequences?
+An index in sequemces basically giving you access to an item in a group.
+
+10. What is the index of the first value within a sequence?
+The index of the first number in a sequence starts with [0]
+
+11. How can I add or remove a value from a sequence?
+To add a value in a sequence you use command <variabename>.append(whatever you want to add)
+To remove a value in a sequence you use command <vairablename>.remove(whatever you want to remove)
+
+12. What is the index of the last value within a sequence?
+The value of the last index if reading from right to left it -1.
+
+13. How can I get the length of a sequence?
+To get the length of a sequence you use len() function
+14. What can I use to reference and use a block of code later in my code?
+To reference back to a block of code later you can use as a comment and comment it out with a #
+and when you want top use it again you can un hash it using command forward slash.
+
+15. What is DRY?
+DRY means Do not repeat yourself
+
+16. What is Scope? Provide an example.
+*A scope is an amount of code where a variable can be accessed such as the following code below
+def singing():
+    high_pitch = "Loud vocals"
+    print("You have perfect pitch")
+def singing2():
+    print("Your pitch is too low")
+ *So above basically the scope of singing() can only acces high_pitch but singing2 cannot it its out of scope.
+
+
+17. What is the difference between parameters and arguments?
+parameters and arguments both are information through a function but the main difference 
+is a parameters is the actual variable listed and arguments are what you pass through the methods.
+For example : (num=3, num=5)are parameters that hold variables and (x,y) are parameters that will pass through methods.
+
+
+18. What is recursion?
+Recursion is when a function calls itself. For example: if grocery_list[0] + sum_of_groceries(grocery_list[1])
+*The above example is basically saying if the grocery list adds to the total of the groceries we pass it through 
+the list until sum of groceries id grocery_list[0]
+
+19. How can you return a value from a function?
+To create a return on a value you want to first create a variable for your result and 
+set it to a number then each number in that list you keep adding to result to return your result.
+
+20. Describe a dictionary. How and why would it be useful?
+21. How can you remove a value from a dictionary?
+22. How can you access and change values within a dictionary?
+23. What data types can a sequence hold?
+24. What data types can a dictionary hold?
+25. How can you iterate through a dictionary?
+26. What is object oriented programming?
+27. Describe a class? Why are they useful?
+28. What are class properties? How would I give a class an initial set of properties?
+29. What are class methods?
+30. What is inheritence?
+31.  What are the various data types?
